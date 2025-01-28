@@ -1,5 +1,5 @@
 
-const argu = process.argv;
+const BuildingEntry = process.argv[2];
 
 interface FloorLayout {
     monthly_rent: number,
@@ -11,6 +11,6 @@ interface Building {
     floor_layout: FloorLayout[]
 }
 
-const apartements: Building[] = JSON.parse(argu[2]);
+const apartements: Building[] = JSON.parse(BuildingEntry);
 
 console.log(apartements);

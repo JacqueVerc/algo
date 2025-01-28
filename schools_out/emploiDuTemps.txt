@@ -1,0 +1,14 @@
+[
+  {
+    "start": "09:00",
+    "end": "10:00",
+    "session_name": "Cours : Bases de données avec Hibernate",
+    "teacher_name": "Nathan TRENET"
+  },
+  {
+    "start": "09:00",
+    "end": "10:00",
+    "session_name": "Cours : Bases de données avec EntityFramework Core",
+    "teacher_name": "Ethan TRANNET"
+  }
+]
